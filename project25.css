@@ -26,12 +26,12 @@
 
   /*Semantic hierarchy with clear spacing*/
   header h1 {
-    color: rgb(0, 30, 255); /* same as inline style */
+    color: rgb(0, 30, 255); 
   }
   
   header h2 {
     text-decoration: underline;
-    color: rgb(100, 97, 124); /* RGB color format */
+    color: rgb(100, 97, 124); 
 }
 
   
