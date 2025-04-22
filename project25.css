@@ -1,0 +1,17 @@
+/* Use a CSS variable with a fallback */
+:root {
+    --main-bg-color: hsl(220, 50%, 95%);
+  }
+  
+  body {
+    background-color: var(--main-bg-color, white); /*White color if variable fails*/
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Universal selector reset*/
+  * {
+    box-sizing: border-box;
+  }
+  
