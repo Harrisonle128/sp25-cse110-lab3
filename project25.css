@@ -1,6 +1,6 @@
 /* Use a CSS variable with a fallback */
 :root {
-    --main-bg-color: hsl(220, 50%, 95%);
+    --main-bg-color: hsla(222, 9%, 63%, 0.431);
   }
   
   body {
@@ -10,8 +10,45 @@
     padding: 0;
   }
   
-  /*Universal selector reset*/
+  /*Universal selector reset for better spacing*/
   * {
     box-sizing: border-box;
   }
+
+  /*Styling header*/
+  header {
+    background-color: hsl(220, 50%, 92%);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /*Semantic hierarchy with clear spacing*/
+  header h1 {
+    color: rgb(0, 30, 255); 
+  }
   
+  header h2 {
+    text-decoration: underline;
+    color: rgb(100, 97, 124); 
+}
+
+  
+  header h3 {
+    font-size: 1.2rem;
+    color: rgb(57, 51, 51);
+  }
+  
+  /*Styling Attendance*/
+  section ul {
+    list-style-type: square;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /*Make the list more visually appealing*/
+  section ul li {
+    margin-bottom: 0.50rem;
+  }
