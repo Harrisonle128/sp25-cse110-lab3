@@ -52,3 +52,32 @@
   section ul li {
     margin-bottom: 0.50rem;
   }
+
+  /*Styling Agenda*/
+  /*Making it a box*/
+  #agenda {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem;
+    background-color: #fdf6f0; 
+    border: 2px solid #d0b090;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+
+  #agenda h3 {
+    font-size: 1.6rem;
+    color: hsl(25, 78%, 23%);
+    margin-bottom: 1rem;
+  }
+  
+  #agenda ol {
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  #agenda ol li::marker {
+    color: color-mix(in srgb, rgb(167, 141, 93)70%, rgb(212, 31, 31)); /* modern color format */
+  }
