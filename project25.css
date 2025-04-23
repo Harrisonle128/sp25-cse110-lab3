@@ -79,7 +79,8 @@
   }
   
   #agenda ol li::marker {
-    color: color-mix(in srgb, rgb(167, 141, 93)70%, rgb(212, 31, 31)); 
+    /* color: color-mix(in srgb, rgb(167, 141, 93) 70%, rgb(212, 31, 31)); */
+    color: rgb(180, 120, 90); 
   }
 
   /*Flex layout (Boxed Sections for Businesses and MIscellenaous*/
