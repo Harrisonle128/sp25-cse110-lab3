@@ -120,4 +120,25 @@
       width: 90%;
     }
   }
+
+  /*Diagram styling*/
+  #diagram {
+    text-align: center;
+    margin: 2rem auto;
+  }
   
+  #diagram h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  /* shrink diagram */
+  #diagram img {
+    max-width: 87%;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+  }
