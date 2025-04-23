@@ -165,3 +165,30 @@
     margin-bottom: 0.8rem;
     color: #1a1a1a;
   }
+
+  /*Meeting Recording centerings*/
+  #recordings {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f0f2f5;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  #recordings h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  #recordings audio,
+  #recordings video {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+  }
