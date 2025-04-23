@@ -1,25 +1,47 @@
-# Standup Notes – Lab 3
+# Standup Notes Template – Project 25
 
-## Date: [03/22/2025]
+## Date & Time
+> _Fill in when the meeting starts_
 
-### What I accomplished:
-- Set up new GitHub repo for Lab 3
-- Created and labeled issues based on CSS tasks
-- Cloned repo locally and linked to GitHub Pages
-- Wrote standup template
-
-### What I’m doing today:
-- Start working on Issue #1: Create CSS file and add starter code
-- Begin styling the meeting agenda section
-- Open first pull request and link to issue
-
-###  Blockers:
-- Learning how to use CSS, which is proving to be difficult
 ---
 
-## Story points
-- 3
+## Participants
+- [ ] Harrison
+- [ ] Harrison 1.0
+- [ ] Harrison 2.0
 
-### By 3/25/2025
-**Today**: Starting Lab 3, creating issues and setting up standup  
-**Tomorrow**: Finishing Lab 3
+---
+
+## Quick Wins Since Last Standup
+- Brief note on something that went well or was completed
+- Anything cool that someone learned, built, or unblocked
+
+---
+
+## Goals Check-In
+
+| Participant     | Progress Since Last Meeting        | Blockers / Questions          |
+|----------------|------------------------------------|-------------------------------|
+| Harrison        | Finished layout for meeting page   | None so far                  |
+| Harrison 1.0    | Added agenda styles                | Waiting on diagram approval  |
+| Harrison 2.0    | Built grid for form/notes sections | Unsure if grid is responsive |
+
+---
+
+## Upcoming Priorities
+
+- [ ] Merge PR for agenda styling
+- [ ] Finalize diagram layout
+- [ ] Begin polishing accessibility + validation
+
+---
+
+## Action Items
+
+- [ ] Assign someone to add mobile tweaks
+- [ ] Test voiceover accessibility
+- [ ] Screenshot CSS validator and upload
+
+---
+
+> _Keep this file updated at least once per meeting. Helps track progress and reduce blockers._  
